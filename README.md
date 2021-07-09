@@ -1,3 +1,17 @@
+# Weekend Challenge
+
+Style the app nicer
+- maybe add a box shadow to the movie cards
+- display the movies differntly how you want
+- make a prettier title/header
+
+Make a module for the movie trailers
+- Google Angular modals
+- this is a challenge
+- try to get the trailers to display in a modal on the same page so users are not leaving the page
+
+FORK THIS REPO IN THE RIGHT CORNER and then pull down from Github Desktop
+
 # TmdbApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
