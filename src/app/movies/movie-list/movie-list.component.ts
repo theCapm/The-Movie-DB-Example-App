@@ -42,7 +42,7 @@ export class MovieListComponent implements OnInit {
   getTrailers(movie_id: any) {
     this.subs.add(
       this.movieHelper.getTrailers(movie_id).subscribe((data) => {
-        debugger;
+
         let output;
         if (data) {
           output = data.results;

@@ -12,6 +12,6 @@ export class Streaming {
     Object.assign(this, rest);
     this.logo = logo_path;
     this.provider = provider_name;
-    debugger;
+
   }
 }

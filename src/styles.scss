@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.content-wrapper {
+  background-color: #31363d;
+  color: #d3def0;
+}
+
+.card-body {
+  background-color: #d3def0;
+  color: #31363d;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(211, 222, 240, 0.726), 0 6px 20px 0 rgba(211, 222, 240, 0.753);
+}
+
+.btn {
+  color: #d3def0;
+  background-color: rgb(56, 97, 161);
+  margin: 1px;
+  font-size: small;
+  justify-content: center;
+}
+

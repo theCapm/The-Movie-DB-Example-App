@@ -22,7 +22,7 @@ export class MoviesComponent implements OnInit {
       this.movieHelper.getPopular().subscribe((data: { results: any }) => {
         let output;
         if (data) {
-          debugger;
+
           output = data.results;
           this.movies = output.map((x: { [x: string]: any }) => new Movies(x));
         } else {

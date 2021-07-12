@@ -1,4 +1,22 @@
-<span>
+<!-- <span>
   <a href="https://www.youtube.com/embed/{{trailer_key}}?rel=0" class="btn btn-outline-primary w-100"
     target="_blank">{{trailer_name}}</a>
-</span>
+</span> -->
+
+<!-- <div class="videoContainer">
+  <iframe [src]="videoLink | safe: 'resourceUrl'" frameborder="0"></iframe>
+</div> -->
+
+
+<div class="video-container">
+  <ng-template #content let-modal>
+    
+    <div class="modal-body">
+      <div class="resp-container">
+        <iframe class="resp-iframe" ngbAutofocus  [src]="videoLink | safe: 'resourceUrl'" allowfullscreen></iframe>
+      </div>
+    </div>
+  </ng-template>
+</div>
+
+<button class="btn btn-lg w-100" (click)="open(content)">{{trailer_name}}</button>
